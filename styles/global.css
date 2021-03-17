@@ -1,0 +1,147 @@
+html, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #292D3E;
+    position: relative;
+    height: 100vh;
+}
+
+.main {
+    margin: 0;
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 92.5%;
+    height: 90%;
+    max-width: 1400px;
+}
+
+.img-pnl {
+    background: #1B1E2B;
+    width: 100%;
+    height: 90%;
+    border: none;
+    border-radius: 15px;
+    color: #969acf;
+}
+
+.image {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    border: none;
+    border-radius: 15px;
+}
+
+button {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background: #d5d7ff;
+    width: 100%;
+    height: 7.5%;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    color: #6469B8;
+    font-family: 'Zilla Slab', serif;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6469B8;
+    color: #d5d7ff;
+}
+
+.footer {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #1B1E2B;
+    width: 100%;
+    height: 5%;
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #d5d7ff;
+    font-family: 'Zilla Slab', serif;
+    transition: 0.3s;
+}
+
+.footer:hover {
+    height: 10%;
+}
+
+a {
+    color: #d5d7ff;
+    font-family: 'Zilla Slab', serif;
+}
+
+a:visited {
+    color: #d5d7ff;
+}
+
+.monty {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    font-size: small;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-top-left-radius: 15px;
+    text-decoration: none;
+    color: #969acf !important;
+}
+
+.monty:hover {
+    background: #969acf;
+    color: #292D3E !important;
+    font-size: x-large;
+}
+
+.pex-gen {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    font-size: small;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-top-right-radius: 15px;
+    text-decoration: none;
+    color: #969acf !important;
+}
+
+.pex-gen:hover {
+    background: #969acf;
+    font-size: larger;
+    color: #292D3E !important;
+}
+
+.pex-pic {
+    position: absolute;
+    bottom: 10%;
+    font-family: 'Zilla Slab', serif;
+    margin: auto;
+    width: 100%;
+    height: 5%;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
