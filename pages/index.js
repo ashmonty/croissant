@@ -31,6 +31,8 @@ export default function Home({ imgUrl, pexUrl, ptgUrl, ptgNm }) {
         <link rel="shortcut icon" href="/favicon.ico?v=XByEo2dnw3" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta property="og:image" content="https://croissant.ga/android-chrome-512x512.png" />
+        <meta property="og:image:alt" content="Croissant" />
         <meta name="description" content="Croissant." />
       </Head>
 
