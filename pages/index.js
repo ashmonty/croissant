@@ -44,7 +44,7 @@ export default function Home({ imgUrl, pexUrl, ptgUrl, ptgNm }) {
           </div>
         </div>
         <div className="footer">
-          <a className="monty" href="https://monty.ga">Made by Monty</a>
+          <a className="monty" href="https://www.ashmonty.com/">Made by Monty</a>
         </div>
       </section>
     </home>
